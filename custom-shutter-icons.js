@@ -1,3 +1,9 @@
+console.info(
+  `%c  Custom-shutter-icons  \n%c  Version a1bb89c   `,
+  'color: orange; font-weight: bold; background: black',
+  'color: white; font-weight: bold; background: dimgray',
+);
+
 const CUSTOM_SHUTTER_ICONS_MAP = {
     
   "shutter-0":
@@ -28,12 +34,12 @@ return { path: CUSTOM_SHUTTER_ICONS_MAP[name] };
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["custom-shutter"] = getIcon;
+window.customIconsets["csi"] = getIcon;
 
 if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
   const iconset = document.createElement("ha-iconset-svg");
-  iconset.name = "custom-shutter";
+  iconset.name = "csi";
   iconset.size = "24";
 
   let iconsetHTML = "";
