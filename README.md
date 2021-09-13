@@ -4,11 +4,11 @@ Custom icon pack designed for Home Assistant for personal use
 
 ## Content
 
-![Preview](./svg/shutter-0.svg) custom-shutter:shutter-0<br />
-![Preview](./svg/shutter-1.svg) custom-shutter:shutter-1<br />
-![Preview](./svg/shutter-2.svg) custom-shutter:shutter-2<br />
-![Preview](./svg/shutter-3.svg) custom-shutter:shutter-3<br />
-![Preview](./svg/shutter-4.svg) custom-shutter:shutter-4<br />
+![Preview](./svg/shutter-0.svg) csi:shutter-0<br />
+![Preview](./svg/shutter-1.svg) csi:shutter-1<br />
+![Preview](./svg/shutter-2.svg) csi:shutter-2<br />
+![Preview](./svg/shutter-3.svg) csi:shutter-3<br />
+![Preview](./svg/shutter-4.svg) csi:shutter-4<br />
 
 ## Install
 
@@ -26,4 +26,4 @@ resources:
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `custom-shutter:`.
+The icons uses the prefix `csi:`.
