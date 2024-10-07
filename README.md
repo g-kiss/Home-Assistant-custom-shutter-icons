@@ -26,4 +26,4 @@ resources:
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `csi:`.
+The icons uses the prefix `custom-shutter:`.
